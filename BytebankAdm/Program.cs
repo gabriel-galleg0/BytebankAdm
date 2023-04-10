@@ -4,35 +4,35 @@ using BytebankAdm.Sistema_Interno;
 using BytebankAdm.Utilitario;
 using System;
 
+#region
+//Auxiliar gabriel = new Auxiliar("12345678910");
+//gabriel.Nome = "Gabriel Gallego";
 
-Auxiliar gabriel = new Auxiliar("12345678910");
-gabriel.Nome = "Gabriel Gallego";
+//gabriel.AumentarSalario();
+//Console.WriteLine(gabriel.Nome);
+//Console.WriteLine(gabriel.GetBonificacao());  
 
-gabriel.AumentarSalario();
-Console.WriteLine(gabriel.Nome);
-Console.WriteLine(gabriel.GetBonificacao());  
-
-Diretor jeferson = new Diretor("12345678911");
-jeferson.Nome = "Jeferson Jegues";
-
-
-Console.WriteLine(jeferson.Nome);
-Console.WriteLine(jeferson.GetBonificacao());
-
-GerencioadorDeBonificacao gerenciador = new GerencioadorDeBonificacao();
-gerenciador.Registrar(gabriel);
-gerenciador.Registrar(jeferson);
-
-Console.WriteLine("Total de bonificações: " + gerenciador.TotalDeBonificacoe);
-Console.WriteLine("Total de funcionarios: " + Funcionario.TotalDeFuncionarios);
-
-jeferson.AumentarSalario();
-
-Console.WriteLine("Novo salário de Gabriel: " + gabriel.Salario);
-Console.WriteLine("Novo salário de Jeferson: " + jeferson.Salario);
+//Diretor jeferson = new Diretor("12345678911");
+//jeferson.Nome = "Jeferson Jegues";
 
 
-CalcularBonificacao();
+//Console.WriteLine(jeferson.Nome);
+//Console.WriteLine(jeferson.GetBonificacao());
+
+//GerencioadorDeBonificacao gerenciador = new GerencioadorDeBonificacao();
+//gerenciador.Registrar(gabriel);
+//gerenciador.Registrar(jeferson);
+
+//Console.WriteLine("Total de bonificações: " + gerenciador.TotalDeBonificacoe);
+//Console.WriteLine("Total de funcionarios: " + Funcionario.TotalDeFuncionarios);
+
+//jeferson.AumentarSalario();
+
+//Console.WriteLine("Novo salário de Gabriel: " + gabriel.Salario);
+//Console.WriteLine("Novo salário de Jeferson: " + jeferson.Salario);
+#endregion
+
+//CalcularBonificacao();
 
 UsarSistema();
 void CalcularBonificacao()
